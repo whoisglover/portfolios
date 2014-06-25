@@ -1,0 +1,10 @@
+
+
+<form action="/edit/<%= @note.id %>" method="post">
+  <input type="hidden" name="_method" value="put">
+  New Title: <input type="text" name="note_title">
+  <br>
+  New Content: <input type="text" name="note_content">
+  <br>
+  <input type="submit" value="Submit">
+</form>
